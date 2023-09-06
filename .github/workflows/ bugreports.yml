@@ -239,56 +239,30 @@
     На главной странице с каталогом товаров на последней странице  внизу присутствует кнопка "Следующая"
   ---
 - summary: |
-    Проверка работы фильтра по категориям
+    Невозможно выбрать "Все категории" в списке категорий
   environment: |
-    
+    https://hexlet-products-store.vercel.app/
   steps-to-reproduce: |
-    
+   - открыт сайт интернет-магазина
+   - выбрана любая категория в фильтре "Категории"
+   - нажать на меню с категориями
+   - выбрать "все категории"
   expected-result: |
-    
+    На главной странице в списке "Категория" сбрасывается выбранная категорию для отображения всех категорий
   actual-result: |
-    
+    Невозможно вернуться к категории "все категории" без обновления страницы
+
   ---
 - summary: |
-    
+    Отсутствуют адаптивность для мобильных версий сайта
   environment: |
-    
+    https://hexlet-products-store.vercel.app/
   steps-to-reproduce: |
-    
+   - Открыт сайт интернет-магазина
+   - Открыть DevTools
+   - Выбрать режим адаптивного тестирования
+   - В меню по очереди выбрать разные девайсы
   expected-result: |
-    
+     Сайт должен быть доступен на различных устройствах
   actual-result: |
-    
-  ---
-- summary: |
-    
-  environment: |
-    
-  steps-to-reproduce: |
-    
-  expected-result: |
-    
-  actual-result: |
-    
-  ---
-- summary: |
-    
-  environment: |
-    
-  steps-to-reproduce: |
-    
-  expected-result: |
-    
-  actual-result: |
-    
-  ---
-- summary: |
-    
-  environment: |
-    
-  steps-to-reproduce: |
-    
-  expected-result: |
-    
-  actual-result: |
-    
+    Сайт не имеет адаптива для мобильных устройств
