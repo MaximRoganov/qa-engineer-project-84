@@ -35,10 +35,10 @@
 - summary: |
     Проверка фильтрации товаров
   status: fail
-
+---
     bugreports:
-  - summary: |
-      Фильтр не работает
+    - summary: |
+       Фильтр не работает
     environment: |
       https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
     steps-to-reproduce: |
@@ -50,7 +50,7 @@
       На главной странице отображаются товары, которые отвечают требованиям фильтрации
     actual-result: |
       Ничего не происходит, фильтр не работает
-
+---
 - summary: |
     Проверка возможности просмотра подробной информации о товаре
   status: pass
